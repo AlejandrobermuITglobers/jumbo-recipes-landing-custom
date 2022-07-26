@@ -1,0 +1,17 @@
+query (
+  $acronym: String,
+  $where: String,
+   $fields: [String]
+   ) {
+  documents(
+    acronym: $acronym,
+     where: $where,
+      fields: $fields
+      ) {
+    id
+    fields {
+      key
+      value
+    }
+  }
+}

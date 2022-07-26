@@ -1,0 +1,14 @@
+{
+  "recipes-search": {
+    "component": "RecipesSearch"
+  },
+  "recipes-pages": {
+    "component": "RecipesPages"
+  },
+  "recipes-week-recommended": {
+    "component": "RecipesWeekRecommended"
+  },
+  "recipes-recommended": {
+    "component": "RecipesRecommended"
+  }
+}
